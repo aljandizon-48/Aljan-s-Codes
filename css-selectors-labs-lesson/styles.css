@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/007/677/104/small/white-background-with-blue-geometric-and-white-line-pattern-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: #345ce094;
+    padding: 35px;
+    border-radius: 12px;
+}
+.card{
+    width: 520px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjnpSSa6z4PwzQsJh-wU_XbTdMB0CsxivM_URa0R23Zw&s=10');
+    border:2px solid #dd7d7d;
+    border-radius: 18px;
+    padding: 35px;
+}
+.card h1{
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px #000000;
+}
+.card h3{
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px #000000;
+}
+.card p{
+    color: #ffd000;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+button{
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: #464646;
+}
