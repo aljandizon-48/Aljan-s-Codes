@@ -16,7 +16,10 @@ body{
     min-height: 100vh;
 }
 .container{
-    background-color: #345ce094;
+    background: #00a2ffad;
+    background: linear-gradient(90deg, rgba(0, 162, 255, 0.637) 0%, rgba(199, 86, 86, 0.747) 50%, rgba(247, 222, 0, 0.74) 100%);
+    background-attachment: fixed;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 35px;
     border-radius: 12px;
 }
